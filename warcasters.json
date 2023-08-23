@@ -3128,7 +3128,7 @@
                     ],
                     "keywords": [
                         "Tree",
-                        "Advance Deploy",
+                        "Advance Deployment",
                         "Eyeless Sight"
                     ],
                     "characterabilities": [
@@ -3176,7 +3176,7 @@
                     ],
                     "keywords": [
                         "Blackclad",
-                        "Advance Deploy",
+                        "Advance Deployment",
                         "Pathfinder"
                     ],
                     "characterabilities": [
@@ -3343,7 +3343,7 @@
                     ]
                 },
                 {
-                    "truename": "Storm Chaser Finch",
+                    "truename": "Storm Chaser Adept Caitlin Finch",
                     "modelname": "Finch1",
                     "modeltype": [
                         "Warrior",
@@ -3401,25 +3401,26 @@
             "points": "24",
             "models": [
                 {
-                    "truename": "Allister Caine",
+                    "truename": "Allister Caine, Leader of the Hellslingers",
                     "modelname": "Caine3",
                     "modeltype": [
                         "Warcaster"
                     ],
                     "keywords": [
+                        "Mercenary",
                         "Gun Mage",
                         "Officer",
                         "Gunfighter",
-                        "Tough"
+                        "Tough",
+                        "Pathfinder"
                     ],
                     "characterabilities": [
                         "Mercenary [Cygnar]",
                         "Partisan [Cygnar]",
                         "True Sight",
-                        "Warcaster Unit",
                         "Synergistic Magic"
                     ],
-                    "execution": "Tactics [Feign Death]",
+                    "execution": "Elite Cadre [Gun Mage] [Feign Death]",
                     "stats": {
                         "spd": "7",
                         "str": "5",
@@ -3457,7 +3458,7 @@
                     ],
                     "feat": {
                         "name": "Reap The Whirlwind",
-                        "description": "While in Caine's control range, models in his battlegroup gain a +1 cumulative bonus on ranged accuracy and ranged damage rolls for each other model in his battlegroup that hit an enemy model with a ranged attack this turn while in Caine's control range. This cumulative bonus cannot exceed +3. Reap the Whirlwind lasts for one turn."
+                        "description": "While in Allister Caine’s control range, after resolving each ranged attack that hit an enemy model also in Allister Caine’s control range, Allister Caine and his battlegroup gains a cumulative +1 to their ranged accuracy and damage rolls. This cumulative bonus cannot exceed +3. Reap the Whirlwind lasts for one turn."
                     },
                     "spells": [
                         "Calamity",
@@ -3466,11 +3467,11 @@
                     ]
                 },
                 {
-                    "truename": "Darsey Ryan",
+                    "truename": "Hellsinger Lieutenant Darsey Ryan",
                     "modelname": "Ryan2",
                     "modeltype": [
                         "Warrior",
-                        "Grunt"
+                        "Solo"
                     ],
                     "keywords": [
                         "Gun Mage",
@@ -3478,7 +3479,10 @@
                         "Tough"
                     ],
                     "characterabilities": [
-                        "Grappling Hook"
+                        "Partisan [Cygnar]",
+                        "Companion [Allister Caine, Leader of the Hellsingers]",
+                        "Grappling Hook",
+                        "Prowl"
                     ],
                     "stats": {
                         "spd": "6",
@@ -3517,11 +3521,11 @@
                     ]
                 },
                 {
-                    "truename": "Sam Watts",
+                    "truename": "Hellsligner Sergeant Sam Watts",
                     "modelname": "Watts2",
                     "modeltype": [
                         "Warrior",
-                        "Grunt"
+                        "Solo"
                     ],
                     "keywords": [
                         "Gun Mage",
@@ -3529,6 +3533,8 @@
                         "Tough"
                     ],
                     "characterabilities": [
+                        "Partisan [Cygnar]",
+                        "Companion [Allister Caine, Leader of the Hellsingers]",
                         "Dual Shot",
                         "Prowl"
                     ],
@@ -4878,8 +4884,7 @@
                     "characterabilities": [
                         "Reiteration",
                         "Set Defense",
-                        "Time Walker",
-                        "Warcaster Unit"
+                        "Time Walker"
                     ],
                     "execution": "Great Power",
                     "stats": {
@@ -4915,8 +4920,8 @@
                         }
                     ],
                     "feat": {
-                        "name": "Singularity",
-                        "description": "The Models in this unit currently in this model's control range gains +2 ARC and +2 AAT for one turn and immediately gain 2 Focus Points."
+                        "name": "Arcane Singularity",
+                        "description": "Major Prime Victoria Haley gains +2 ARC and +2 AAT for one turn and immediately gains 2 Focus Points. If Haley Past and/or Haley Future is in play and in Major Prime Victoria Haley’s control range, they gain +2 ARC and +2 AAT for one turn and immediately gain 2 Focus Points."
                     },
                     "spells": [
                         "Domination",
@@ -4929,12 +4934,14 @@
                     "modelname": "Haley Past",
                     "modeltype": [
                         "Warrior",
-                        "Grunt"
+                        "Solo"
                     ],
                     "keywords": [
                         "Spectre"
                     ],
                     "characterabilities": [
+                        "Companion [Major Prime Victoria Haley",
+                        "Created",
                         "Raw Talent",
                         "Time Projection"
                     ],
@@ -4972,13 +4979,15 @@
                     "modelname": "Haley Future",
                     "modeltype": [
                         "Warrior",
-                        "Grunt"
+                        "Solo"
                     ],
                     "keywords": [
                         "Spectre"
                     ],
                     "characterabilities": [
-                        "Granted: True Sight",
+                        "Companion [Major Prime Victoria Haley",
+                        "Created",
+                        "Gift of Mage Sight",
                         "Time Projection"
                     ],
                     "stats": {
@@ -10027,13 +10036,14 @@
                     "modelcount": "2",
                     "modeltype": [
                         "Warrior",
-                        "Companion"
+                        "Solo"
                     ],
                     "keywords": [
                         "Construct"
                     ],
                     "characterabilities": [
-                        "Battle Driven",
+                        "Companion [Supreme Archdomina Makeda of House Balaash]",
+                        "Battle-Driven",
                         "Overtake",
                         "Shield Guard",
                         "Soul Vessel"
@@ -10120,7 +10130,7 @@
                     ],
                     "feat": {
                         "name": "Insufferable Pain",
-                        "description": "Naaresh immediately suffers any number of damage points. For each damage point suffered as a result of Imperishable Flesh, one friendly Faction model currently in her control range gains +3 SPD and +3 STR  for one round. Naaresh cannot spend fury points to reduce this damage. For each damage point Narresh suffers from this effect, and 1 blood token up to his maximum of 5."
+                        "description": "Naaresh immediately suffers any number of damage points. For each damage point suffered as a result of Imperishable Flesh, one friendly Faction model currently in his control range gains +3 SPD and +3 STR  for one round. Naaresh cannot spend fury points to reduce this damage. For each damage point Narresh suffers from this effect, he gains 1 blood token up to his maximum of 5."
                     },
                     "spells": [
                         "Bleed",
@@ -10227,7 +10237,8 @@
                         "arc": "6",
                         "cmd": "9",
                         "ctrl": "12",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "16"
                     },
                     "weapons": [
                         {
@@ -10259,7 +10270,7 @@
                     ],
                     "feat": {
                         "name": "Hide In Sight",
-                        "description": "When an enemy model makes an accuracy roll against a friendly Faction model in Jalaam's control range, the enemy model rolls one less die. Hide in Sight lasts for one round."
+                        "description": "When an enemy model makes an attack accuracy roll against a friendly Faction model in Jalaam's control range, the enemy model rolls one less die. Hide in Sight lasts for one round."
                     },
                     "spells": [
                         "Artifice Of Deviation",
@@ -10272,7 +10283,7 @@
             ]
         },
         {
-            "name": "Supreme Aptimus Zaal & Kovaas",
+            "name": "Supreme Aptimus Zaal and Kovaas",
             "points": "26",
             "models": [
                 {
@@ -10302,7 +10313,8 @@
                         "arc": "7",
                         "cmd": "8",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "15"
                     },
                     "weapons": [
                         {
@@ -10330,7 +10342,7 @@
                     ],
                     "feat": {
                         "name": "Rage Of Ancients",
-                        "description": "Supreme Aptimus Zaal gains a number of ancestral rage tokens equal to the number of friendly Faction warrior models that have been destroyed and not returned to play since the star of the game. While in Supreme Aptimus Zaal's control range, friendly Faction models can spend ancestral rage tokens on Zaal to boost one melee accuracy or melee damage roll for each token spent. At the end of the turn, remove unspent ancestral rage tokens from Supreme Aptimus Zaal."
+                        "description": "Supreme Aptimus Zaal gains a number of ancestral rage tokens equal to the number of friendly Faction warrior models that have been destroyed and not returned to play since the start of the game. While in Supreme Aptimus Zaal's control range, friendly Faction models can spend ancestral rage tokens on Zaal to boost one melee accuracy or melee damage roll for each token spent. At the end of the turn, remove unspent ancestral rage tokens from Supreme Aptimus Zaal."
                     },
                     "spells": [
                         "Awakened Spirit",
@@ -10339,14 +10351,9 @@
                         "Last Stand",
                         "Sunder Spirit"
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Kovaas",
-            "models": [
+                },
                 {
-                    "modelname": "",
+                    "modelname": "Kovaas",
                     "modeltype": [
                         "Solo",
                         "Warrior"
@@ -10358,7 +10365,9 @@
                     "characterabilities": [
                         "Desiccator (★Action)",
                         "Destruction",
-                        "Soul Taker [2\"] [3 Tokens]"
+                        "Soul Taker [2\"] [3 Tokens]",
+                        "Soul Powered",
+                        "Strength of Death"
                     ],
                     "stats": {
                         "spd": "6",
@@ -10371,7 +10380,8 @@
                         "arc": "-",
                         "cmd": "0",
                         "ctrl": "-",
-                        "base": "40mm"
+                        "base": "40mm",
+                        "hp": "5"
                     },
                     "weapons": [
                         {
@@ -10420,11 +10430,13 @@
                         "arc": "7",
                         "cmd": "10",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "16"
                     },
                     "weapons": [
                         {
                             "name": "Sword Of Balaash",
+                            "count": "2",
                             "type": "m",
                             "rng": "1",
                             "pow": "6",
@@ -10467,6 +10479,11 @@
                         "Great Power",
                         "Overtake"
                     ],
+                    "batte plan": [
+                        "March",
+                        "Push to the Limit",
+                        "Stir the Blood"
+                    ],
                     "execution": "Veteran Leader [Cataphract]",
                     "stats": {
                         "spd": "5",
@@ -10479,11 +10496,13 @@
                         "arc": "5",
                         "cmd": "10",
                         "ctrl": "10",
-                        "base": "40mm"
+                        "base": "40mm",
+                        "hp": "24"
                     },
                     "weapons": [
                         {
                             "name": "Pillar Of Halaak",
+                            "count": "2",
                             "type": "m",
                             "rng": "2",
                             "pow": "7",
@@ -10497,7 +10516,7 @@
                     ],
                     "feat": {
                         "name": "Total Annihilation",
-                        "description": "Whale in Tyrant Xerxis' control range, friendly Faction models gain an additional die on their melee damage rolls. While in Tyrant Xerxis' control range and B2B with another friendly Faction model, friendly Faction model gains +2 ARM. Total Annihilation lasts for one round."
+                        "description": "While in Tyrant Xerxis' control range, friendly Faction models gain an additional die on their melee damage rolls. While in Tyrant Xerxis' control range and B2B with another friendly Faction model, friendly Faction models gain +2 ARM. Total Annihilation lasts for one round."
                     },
                     "spells": [
                         "Defender's Ward",
@@ -10540,7 +10559,8 @@
                         "arc": "7",
                         "cmd": "8",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "16"
                     },
                     "weapons": [
                         {
@@ -10554,9 +10574,23 @@
                                 "Arcane"
                             ],
                             "ability": [
-                                "Attack Type",
+                                "Attack Type"
+                            ],
+                            "attacktype": [
                                 "Death Blast",
                                 "Spectral Wrath"
+                            ]
+                        },
+                        {
+                            "name": "Eidolon",
+                            "type": "m",
+                            "rng": "1",
+                            "pow": "8",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "ability": [
+                                "Life Drinker"
                             ]
                         }
                     ],
@@ -10608,7 +10642,8 @@
                         "arc": "5",
                         "cmd": "10",
                         "ctrl": "12",
-                        "base": "120mm"
+                        "base": "120mm",
+                        "hp": "24"
                     },
                     "weapons": [
                         {
@@ -10624,7 +10659,7 @@
                             ]
                         },
                         {
-                            "name": "War",
+                            "name": "War-Standard",
                             "type": "m",
                             "rng": "2",
                             "pow": "3"
@@ -10684,7 +10719,8 @@
                         "arc": "7",
                         "cmd": "8",
                         "ctrl": "14",
-                        "base": "40mm"
+                        "base": "40mm",
+                        "hp": "18"
                     },
                     "weapons": [
                         {
@@ -10692,8 +10728,10 @@
                             "type": "m",
                             "rng": "2",
                             "pow": "7",
+                            "damagetype": [
+                                "Arcane"
+                            ],
                             "ability": [
-                                "Damage Type: Arcane",
                                 "Silencer"
                             ]
                         }
@@ -10733,6 +10771,7 @@
                         "Passive Necromancy",
                         "Death Magic"
                     ],
+                    "execution": "Mistress of The Witchfire Blade -\"Now I call my army of the dead, the Cauldron Born, arise, my messengers of death, our time has arrived.\"",
                     "stats": {
                         "spd": "6",
                         "str": "4",
@@ -10744,7 +10783,8 @@
                         "arc": "7",
                         "cmd": "10",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "16"
                     },
                     "weapons": [
                         {
@@ -10753,6 +10793,22 @@
                             "rng": "12",
                             "rof": "1",
                             "pow": "12"
+                        },
+                        {
+                            "name": "Witchfire",
+                            "type": "m",
+                            "rng": "1",
+                            "pow": "8",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "ability": [
+                                "Weapon Master",
+                                "Death Toll [small or medium-based]",
+                                "Energy Siphon",
+                                "Devour Essence",
+                                "Life Drinker"
+                            ]
                         }
                     ],
                     "feat": {
@@ -10770,7 +10826,7 @@
             ]
         },
         {
-            "name": "Assault Kommader Strakhov",
+            "name": "Assault Kommader Strakhov & Kommandos",
             "points": "27",
             "models": [
                 {
@@ -10786,9 +10842,13 @@
                         "Pathfinder"
                     ],
                     "characterabilities": [
-                        "Warcaster Unit",
                         "Alchemical Mask",
                         "Tactical Flexibility"
+                    ],
+                    "tactical flexibility": [
+                        "Battle Maneuvers",
+                        "Quiet Advance",
+                        "Red Tide"
                     ],
                     "execution": "Elite Cadre [Assault Kommandos]",
                     "stats": {
@@ -10802,7 +10862,8 @@
                         "arc": "6",
                         "cmd": "9",
                         "ctrl": "12",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "17"
                     },
                     "weapons": [
                         {
@@ -10813,11 +10874,12 @@
                             "pow": "6",
                             "ability": [
                                 "Assault",
-                                "Armor"
+                                "Armor-Piercing"
                             ]
                         },
                         {
                             "name": "Trench Blade",
+                            "count": "2",
                             "type": "m",
                             "rng": "1",
                             "pow": "4",
@@ -10840,6 +10902,61 @@
                         "Lock The Target",
                         "Quicken",
                         "Return Fire"
+                    ]
+                },
+                {
+                    "modelname": "Kommandos",
+                    "modelcount": "2",
+                    "modeltype": [
+                        "Warrior",
+                        "Solo"
+                    ],
+                    "keywords": [
+                        "Assault Kommando",
+                        "Resistance: Corrosion",
+                        "Resistance: Fire",
+                        "Pathfinder"
+                    ],
+                    "characterabilities": [
+                        "Companion [Assault Kommander Strakhov]",
+                        "Alchemical Mask",
+                        "Smoke Bombs (★Action)"
+                    ],
+                    "stats": {
+                        "spd": "6",
+                        "str": "6",
+                        "aat": "-",
+                        "mat": "7",
+                        "rat": "6",
+                        "def": "13",
+                        "arm": "14",
+                        "arc": "-",
+                        "cmd": "8",
+                        "ctrl": "-",
+                        "base": "30mm",
+                        "hp": "5"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Death Whisper Carbine",
+                            "type": "r",
+                            "rng": "8",
+                            "rof": "1",
+                            "pow": "6",
+                            "ability": [
+                                "Assault",
+                                "Armor-Piercing"
+                            ]
+                        },
+                        {
+                            "name": "Trench Blade",
+                            "type": "m",
+                            "rng": "1",
+                            "pow": "4",
+                            "ability": [
+                                "Brutal Charge"
+                            ]
+                        }
                     ]
                 }
             ]
@@ -10876,7 +10993,8 @@
                         "arc": "6",
                         "cmd": "8",
                         "ctrl": "12",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "17"
                     },
                     "weapons": [
                         {
@@ -10885,6 +11003,19 @@
                             "rng": "10",
                             "rof": "4",
                             "pow": "10"
+                        },
+                        {
+                            "name": "Frostfang",
+                            "type": "m",
+                            "rng": "2",
+                            "pow": "7",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "ability": [
+                                "Critical Freeze",
+                                "Shatter"
+                            ]
                         }
                     ],
                     "feat": {
@@ -10897,138 +11028,6 @@
                         "Iron Flesh",
                         "Winter's Wrath",
                         "Shatter Storm"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Karchev & Deathjack, Malignant Fusion",
-            "points": "27",
-            "models": [
-                {
-                    "modelname": "Karchev2 & Deathjack2",
-                    "modeltype": [
-                        "Warcaster"
-                    ],
-                    "keywords": [
-                        "Riot Quest",
-                        "Greylord",
-                        "Construct"
-                    ],
-                    "characterabilities": [
-                        "Split Loyalties",
-                        "Hate Infused",
-                        "Meat For The Beast",
-                        "Monster In The Machine"
-                    ],
-                    "execution": "Regenerative Alloys",
-                    "stats": {
-                        "spd": "5",
-                        "str": "12",
-                        "aat": "6",
-                        "mat": "7",
-                        "rat": "5",
-                        "def": "12",
-                        "arm": "20",
-                        "arc": "6",
-                        "cmd": "8",
-                        "ctrl": "12",
-                        "base": "50mm"
-                    },
-                    "grid": [
-                        [
-                            "x",
-                            "x",
-                            "x",
-                            "S",
-                            "L",
-                            "-"
-                        ],
-                        [
-                            "x",
-                            "x",
-                            "x",
-                            "S",
-                            "L",
-                            "L"
-                        ],
-                        [
-                            "x",
-                            "x",
-                            "x",
-                            "x",
-                            "M",
-                            "M"
-                        ],
-                        [
-                            "x",
-                            "x",
-                            "x",
-                            "x",
-                            "x",
-                            "M"
-                        ],
-                        [
-                            "x",
-                            "x",
-                            "x",
-                            "S",
-                            "R",
-                            "R"
-                        ],
-                        [
-                            "x",
-                            "x",
-                            "x",
-                            "S",
-                            "R",
-                            "-"
-                        ]
-                    ],
-                    "weapons": [
-                        {
-                            "name": "Sinkhole",
-                            "type": "r",
-                            "rng": "10",
-                            "rof": "1",
-                            "aoe": "4",
-                            "pow": "12",
-                            "damagetype": [
-                                "Arcane"
-                            ]
-                        },
-                        {
-                            "name": "Necroclaw",
-                            "type": "m",
-                            "rng": "1",
-                            "pow": "6",
-                            "damagetype": [
-                                "Arcane"
-                            ],
-                            "ability": [
-                                "Open Fist"
-                            ]
-                        },
-                        {
-                            "name": "Sunderer",
-                            "type": "m",
-                            "rng": "1",
-                            "pow": "7",
-                            "damagetype": [
-                                "Arcane"
-                            ]
-                        }
-                    ],
-                    "feat": {
-                        "name": "To The Slaughter",
-                        "description": "While in Karchev & Deathjack's control range, this model and models in its battlegroup are SPD 8. When an affected model ends its Normal Movement in melee with one or more enemy models, the affected model gains 1 focus point. To The Slaughter lasts for one turn."
-                    },
-                    "spells": [
-                        "Abattoir",
-                        "Death Ward",
-                        "Full Throttle",
-                        "Locked Horns",
-                        "Onslaught"
                     ]
                 }
             ]
@@ -11051,6 +11050,7 @@
                         "Repairable",
                         "Unyielding"
                     ],
+                    "execution": "This model gains Advance Deployment",
                     "stats": {
                         "spd": "4",
                         "str": "12",
@@ -11062,7 +11062,8 @@
                         "arc": "6",
                         "cmd": "8",
                         "ctrl": "12",
-                        "base": "50mm"
+                        "base": "50mm",
+                        "hp": "34"
                     },
                     "grid": [
                         [
@@ -11133,12 +11134,18 @@
                             "type": "m",
                             "rng": "2",
                             "pow": "7",
+                            "system": "R",
                             "damagetype": [
                                 "Arcane"
-                            ],
+                            ]
+                        },
+                        {
+                            "name": "Open Fist",
+                            "type": "m",
+                            "rng": "1",
+                            "pow": "3",
+                            "system": "L",
                             "ability": [
-                                "Open Fist",
-                                "Melee Weapon (l)",
                                 "Open Fist"
                             ]
                         }
@@ -11176,6 +11183,11 @@
                         "Arcane Artifacts",
                         "Sacred Ward"
                     ],
+                    "arcane artifacts": [
+                        "Focus Sphere",
+                        "Lens of Tarvodh",
+                        "Medallion of Ekris"
+                    ],
                     "execution": "Gate Walker",
                     "stats": {
                         "spd": "6",
@@ -11188,7 +11200,8 @@
                         "arc": "7",
                         "cmd": "9",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "16"
                     },
                     "weapons": [
                         {
@@ -11219,7 +11232,7 @@
                     ],
                     "feat": {
                         "name": "Howling Wind",
-                        "description": "While in Zerkova's control range, enemy models cannot make ranged attacks. Enemy models beginning their activations in Zerkova's control range cannot run, charge, make power attacks or special attacks, give or receive order, or make special actions. Howling Wind lasts for one round."
+                        "description": "While in Zerkova's control range, enemy models cannot make ranged attacks. Enemy models beginning their activations in Zerkova's control range cannot run, charge, make power attacks or special attacks, give or receive orders, or make special actions. Howling Wind lasts for one round."
                     },
                     "spells": [
                         "Freezing Mist",
@@ -11246,6 +11259,13 @@
                     "characterabilities": [
                         "Battle Plan"
                     ],
+                    "battle plan": [
+                        "March",
+                        "Reveille",
+                        "Special Orders - RNG 5\"",
+                        "Sneak - RNG 5\"",
+                        "Kill Order - RNG 10\""
+                    ],
                     "execution": "Field Marshal [Shield Guard]",
                     "stats": {
                         "spd": "6",
@@ -11258,7 +11278,8 @@
                         "arc": "7",
                         "cmd": "10",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "17"
                     },
                     "weapons": [
                         {
@@ -11284,7 +11305,7 @@
                     ],
                     "feat": {
                         "name": "Undying Loyalty",
-                        "description": "While in Irusk's control range, friendly Faction warrior models gain +2 to accuracy rolls and Tough and cannot become knocked down. Friendly Faction warrior models make a Tough roll of 4, 5, or 6 while in Irusk's control range, removing 1 damage point from that model. Undying Loyalty lasts for one round."
+                        "description": "While in Irusk's control range, friendly Faction warrior models gain +2 to accuracy attack rolls and Tough and cannot become knocked down. When a friendly Faction warrior model makes a Tough roll of 4, 5, or 6 while in Irusk's control range, remove 1 damage point from that model. Undying Loyalty lasts for one round."
                     },
                     "spells": [
                         "Airburst",
@@ -11307,17 +11328,17 @@
                         "Warcaster"
                     ],
                     "keywords": [
-                        "Man - O - War",
+                        "Man-O-War",
                         "Resistance: Cold",
                         "Dual Attack"
                     ],
                     "characterabilities": [
-                        "Field Marshal [Flank Man",
-                        "Irregulars [Medium Based Man",
+                        "Field Marshal [Flank Man-o-War]",
+                        "Irregulars [Medium Based Man-o-War]",
                         "Repairable",
                         "Storm's Embrace"
                     ],
-                    "execution": "Elite Cadre [Man",
+                    "execution": "Elite Cadre [Man-o-War]",
                     "stats": {
                         "spd": "4",
                         "str": "9",
@@ -11329,7 +11350,8 @@
                         "arc": "6",
                         "cmd": "9",
                         "ctrl": "12",
-                        "base": "40mm"
+                        "base": "40mm",
+                        "hp": "17"
                     },
                     "weapons": [
                         {
@@ -11341,6 +11363,19 @@
                             "pow": "13",
                             "ability": [
                                 "Arcing Fire"
+                            ]
+                        },
+                        {
+                            "name": "Frostfang",
+                            "type": "m",
+                            "rng": "2",
+                            "pow": "7",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "ability": [
+                                "Critical Freeze",
+                                "Shatter"
                             ]
                         }
                     ],
@@ -11375,6 +11410,11 @@
                         "Battle Plan",
                         "Sucker!"
                     ],
+                    "battle plan": [
+                        "Fighting Dirty - RNG 5\"",
+                        "Throat Cutter - RNG 5\"",
+                        "Money Shot - RNG 5\""
+                    ],
                     "execution": "Call To Sacrifice [Winter Guard]",
                     "stats": {
                         "spd": "6",
@@ -11387,7 +11427,8 @@
                         "arc": "6",
                         "cmd": "8",
                         "ctrl": "12",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "17"
                     },
                     "weapons": [
                         {
@@ -11396,6 +11437,15 @@
                             "rng": "12",
                             "rof": "1",
                             "pow": "12"
+                        },
+                        {
+                            "name": "Evangeline",
+                            "type": "m",
+                            "rng": "1",
+                            "pow": "6",
+                            "damagetype": [
+                                "Arcane"
+                            ]
                         }
                     ],
                     "feat": {
@@ -11429,7 +11479,7 @@
                         "Field Marshal [Reposition [3\"]]",
                         "Iron Sentinel"
                     ],
-                    "execution": "Leadership [Faction Warrior]",
+                    "execution": "Leadership [Faction Warrior] [Iron Sentinel]",
                     "stats": {
                         "spd": "5",
                         "str": "7",
@@ -11441,7 +11491,8 @@
                         "arc": "6",
                         "cmd": "8",
                         "ctrl": "12",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "18"
                     },
                     "weapons": [
                         {
@@ -11450,11 +11501,23 @@
                             "rng": "12",
                             "rof": "1",
                             "pow": "12"
+                        },
+                        {
+                            "name": "Minister",
+                            "type": "m",
+                            "rng": "1",
+                            "pow": "9",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "ability": [
+                                "Blessed"
+                            ]
                         }
                     ],
                     "feat": {
                         "name": "Hour Of The Wolf",
-                        "description": "While in Harkevich's control range, models in his battlegroup gain +3 ARM. Models in his battlegroup beginning their activations in his control range can charge or make slam power attacks without spending focus. A model in Harkevich's battlegroup that declares a charge or slam against an enemy model while in his control range can make a basic ranged attack before advancing. Hour of the Wold lasts for one round."
+                        "description": "While in Harkevich's control range, models in his battlegroup gain +3 ARM. Models in his battlegroup beginning their activations in his control range can charge or make slam power attacks without spending focus. A model in Harkevich's battlegroup that declares a charge or slam against an enemy model while in his control range can make a basic ranged attack before advancing. Hour of the Wolf lasts for one round."
                     },
                     "spells": [
                         "Bombshell",
@@ -11502,7 +11565,8 @@
                         "arc": "6",
                         "cmd": "9",
                         "ctrl": "12",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "17"
                     },
                     "weapons": [
                         {
@@ -11513,6 +11577,32 @@
                             "pow": "12",
                             "ability": [
                                 "Volume Fire"
+                            ]
+                        },
+                        {
+                            "name": "Cinder Bomb",
+                            "type": "r",
+                            "rng": "6",
+                            "rof": "1",
+                            "aoe": "3",
+                            "pow": "14",
+                            "damagetype": [
+                                "Fire"
+                            ],
+                            "ability": [
+                                "Smoke"
+                            ]
+                        },
+                        {
+                            "name": "Trench Sword",
+                            "type": "m",
+                            "rng": "1",
+                            "pow": "6",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "ability": [
+                                "Brutal Charge"
                             ]
                         }
                     ],
@@ -11561,7 +11651,8 @@
                         "arc": "*",
                         "cmd": "7",
                         "ctrl": "12",
-                        "base": "40mm"
+                        "base": "40mm",
+                        "hp": "20"
                     },
                     "weapons": [
                         {
@@ -11570,11 +11661,23 @@
                             "rng": "SP6",
                             "rof": "1",
                             "pow": "12"
+                        },
+                        {
+                            "name": "Lola",
+                            "type": "m",
+                            "rng": "2",
+                            "pow": "8",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "ability": [
+                                "Weapon Master"
+                            ]
                         }
                     ],
                     "feat": {
                         "name": "Feel The Hate",
-                        "description": "Each time an enemy model is destroyed in Zoktavir's control range, you can place one rage token on a friendly Faction model in his control range. A model can have up to three rage tokens at any time. Models can spend rage tokens during their activations to make additional melee attacks or to boost melee accuracy or melee damage rolls. A model can make one additional attack or boost one roll for each token spent. Fell the Hate lasts for one turn. Remove unspent rage tokens at the end of this turn."
+                        "description": "Each time an enemy model is destroyed in Zoktavir's control range, you can place one rage token on a friendly Faction model in his control range. A model can have up to three rage tokens at any time. Models can spend rage tokens during their activations to make additional melee attacks or to boost melee accuracy or melee damage rolls. A model can make one additional attack or boost one roll for each token spent. Feel the Hate lasts for one turn. Remove unspent rage tokens at the end of this turn."
                     },
                     "spells": [
                         "Boundless Charge",
@@ -11610,7 +11713,8 @@
                         "arc": "6",
                         "cmd": "9",
                         "ctrl": "12",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "17"
                     },
                     "weapons": [
                         {
@@ -11619,6 +11723,19 @@
                             "rng": "12",
                             "rof": "1",
                             "pow": "12"
+                        },
+                        {
+                            "name": "Frostfang",
+                            "type": "m",
+                            "rng": "2",
+                            "pow": "7",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "ability": [
+                                "Critical Freeze",
+                                "Shatter"
+                            ]
                         }
                     ],
                     "feat": {
@@ -11637,7 +11754,7 @@
             ]
         },
         {
-            "name": "Kommander Zoktavir, The Butcher Unleashed & Argui",
+            "name": "Kommander Zoktavir, The Butcher Unleashed and Argui",
             "points": "24",
             "models": [
                 {
@@ -11664,7 +11781,8 @@
                         "arc": "6",
                         "cmd": "7",
                         "ctrl": "12",
-                        "base": "40mm"
+                        "base": "40mm",
+                        "hp": "20"
                     },
                     "weapons": [
                         {
@@ -11673,6 +11791,18 @@
                             "rng": "SP6",
                             "rof": "1",
                             "pow": "12"
+                        },
+                        {
+                            "name": "Lola",
+                            "type": "m",
+                            "rng": "2",
+                            "pow": "8",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "ability": [
+                                "Weapon Master"
+                            ]
                         }
                     ],
                     "feat": {
@@ -11686,32 +11816,24 @@
                         "Obliteration",
                         "Silence Of Death"
                     ]
-                }
-            ]
-        },
-        {
-            "name": "War Argus",
-            "models": [
+                },
                 {
-                    "modelname": "",
+                    "modelname": "War Argus",
+                    "modelcount": "2",
                     "modeltype": [
                         "Solo",
-                        "Light",
-                        "Warbeast"
+                        "Light Warbeast"
                     ],
                     "keywords": [
                         "Pathfinder"
                     ],
                     "characterabilities": [
-                        "Attached [Kommander Zoktavir",
-                        " The Butcher Unleashed]",
+                        "Attached [Kommander Zoktavir The Butcher Unleashed]",
                         "Tamed",
-                        "Companion [Kommander Zoktavir",
-                        " The Butcher Unleashed]",
+                        "Companion [Kommander Zoktavir The Butcher Unleashed]",
                         "Sprint",
                         "Guard Dog",
-                        "Flank [Kommander Zoktavir",
-                        " The Butcher Unleashed]"
+                        "Flank [Kommander Zoktavir The Butcher Unleashed]"
                     ],
                     "stats": {
                         "spd": "6",
@@ -11724,11 +11846,13 @@
                         "arc": "-",
                         "cmd": "6",
                         "ctrl": "-",
-                        "base": "40mm"
+                        "base": "40mm",
+                        "hp": "9"
                     },
                     "weapons": [
                         {
                             "name": "Bite",
+                            "count": "2",
                             "type": "m",
                             "rng": "1",
                             "pow": "4",
@@ -11770,7 +11894,8 @@
                         "arc": "7",
                         "cmd": "12",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "17"
                     },
                     "weapons": [
                         {
@@ -11779,6 +11904,15 @@
                             "rng": "12",
                             "rof": "1",
                             "pow": "12"
+                        },
+                        {
+                            "name": "Endgame",
+                            "type": "m",
+                            "rng": "1",
+                            "pow": "7",
+                            "damagetype": [
+                                "Arcane"
+                            ]
                         }
                     ],
                     "feat": {
@@ -11812,7 +11946,7 @@
                         "Pathfinder"
                     ],
                     "characterabilities": [
-                        "Blood-quenched",
+                        "Blood-Quenched",
                         "Tall In The Saddle",
                         "Reposition [3\"]"
                     ],
@@ -11828,7 +11962,8 @@
                         "arc": "7",
                         "cmd": "9",
                         "ctrl": "14",
-                        "base": "50mm"
+                        "base": "50mm",
+                        "hp": "18"
                     },
                     "weapons": [
                         {
@@ -11854,10 +11989,19 @@
                             "ability": [
                                 "Chain Weapon"
                             ]
+                        },
+                        {
+                            "name": "Mount",
+                            "type": "m",
+                            "rng": "1",
+                            "pow": "12",
+                            "ability": [
+                                "Critical Knockdown"
+                            ]
                         }
                     ],
                     "feat": {
-                        "name": "Charge Of The Horse Lord",
+                        "name": "Charge Of The Horse Lords",
                         "description": "While in Vladimir's control range, friendly Faction warjacks and cavalry models gain Side Step and Sprint. Charge of the Horse Lords lasts for one turn. (When a model with Side Step hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved.) (At the end of an activation in which it destroyed or removed from play one or more enemy models with melee attacks, a model with Sprint can immediately make a full advance, then its activation ends.)"
                     },
                     "spells": [
@@ -11901,7 +12045,8 @@
                         "arc": "7",
                         "cmd": "9",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "18"
                     },
                     "weapons": [
                         {
@@ -11961,7 +12106,8 @@
                         "arc": "7",
                         "cmd": "9",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "18"
                     },
                     "weapons": [
                         {
@@ -12005,7 +12151,6 @@
                     "modelname": "Old Witch2",
                     "modeltype": [
                         "Warcaster",
-                        "and",
                         "Warlock"
                     ],
                     "keywords": [
@@ -12020,6 +12165,15 @@
                         "Arcane Machinery",
                         "Repairable"
                     ],
+                    "arcane machinery": [
+                        "Arcane Calibrations",
+                        "Divinator",
+                        "[Warcaster] Power Magnifier",
+                        "[Warlock] Hellhole",
+                        "Range Amplifier",
+                        "Vexing Alignment"
+                    ],
+                    "execution": "This model gains Trample Power attack.",
                     "stats": {
                         "spd": "6",
                         "str": "12",
@@ -12031,7 +12185,8 @@
                         "arc": "7",
                         "cmd": "8",
                         "ctrl": "14",
-                        "base": "120mm"
+                        "base": "120mm",
+                        "hp": "20"
                     },
                     "weapons": [
                         {
@@ -12047,6 +12202,14 @@
                         {
                             "name": "Stomp",
                             "type": "m",
+                            "system": "L",
+                            "rng": "2",
+                            "pow": "3"
+                        },
+                        {
+                            "name": "Stomp",
+                            "type": "m",
+                            "system": "R",
                             "rng": "2",
                             "pow": "3"
                         }
@@ -12095,11 +12258,13 @@
                         "arc": "7",
                         "cmd": "8",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "16"
                     },
                     "weapons": [
                         {
                             "name": "Iron Claws",
+                            "count": "2",
                             "type": "m",
                             "rng": "1",
                             "pow": "6",
@@ -12120,17 +12285,11 @@
                         "Unseen Path",
                         "Weald Secrets"
                     ]
-                }
-            ]
-        },
-        {
-            "name": "ScrapJack",
-            "models": [
+                },
                 {
-                    "modelname": "",
+                    "modelname": "Scrapjack",
                     "modeltype": [
-                        "Light",
-                        "Warjack"
+                        "Light Warjack"
                     ],
                     "keywords": [
                         "Arc Node",
@@ -12153,11 +12312,63 @@
                         "arc": "-",
                         "cmd": "-",
                         "ctrl": "-",
-                        "base": "40mm"
+                        "base": "40mm",
+                        "hp": "22"
                     },
+                    "grid": [
+                        [
+                            "-",
+                            "-",
+                            "-",
+                            "x",
+                            "M",
+                            "-"
+                        ],
+                        [
+                            "-",
+                            "-",
+                            "x",
+                            "x",
+                            "C",
+                            "M"
+                        ],
+                        [
+                            "-",
+                            "x",
+                            "x",
+                            "x",
+                            "A",
+                            "C"
+                        ],
+                        [
+                            "-",
+                            "x",
+                            "x",
+                            "x",
+                            "A",
+                            "C"
+                        ],
+                        [
+                            "-",
+                            "-",
+                            "x",
+                            "x",
+                            "C",
+                            "M"
+                        ],
+                        [
+                            "-",
+                            "-",
+                            "-",
+                            "x",
+                            "M",
+                            "-"
+                        ]
+                    ],
                     "weapons": [
                         {
                             "name": "Mechanikal Talons",
+                            "count": "2",
                             "type": "m",
                             "rng": "2",
                             "pow": "4"
@@ -12167,7 +12378,7 @@
             ]
         },
         {
-            "name": "Obavnik Kommander Zerkova & Reaver Guard",
+            "name": "Obavnik Kommander Zerkova and Reaver Guard",
             "points": "27",
             "models": [
                 {
@@ -12181,7 +12392,6 @@
                         "Resistance: Cold"
                     ],
                     "characterabilities": [
-                        "Warcaster Unit",
                         "Sacred Ward",
                         "Granted: Silence",
                         "Promote [Doom Reaver]",
@@ -12199,7 +12409,8 @@
                         "arc": "7",
                         "cmd": "9",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "16"
                     },
                     "weapons": [
                         {
@@ -12225,17 +12436,13 @@
                         "Occult Whispers",
                         "Sacrificial Lamb"
                     ]
-                }
-            ]
-        },
-        {
-            "name": "Reaver Guard",
-            "models": [
+                },
                 {
-                    "modelname": "",
+                    "modelname": "Reaver Guard",
+                    "modelcount": "2",
                     "modeltype": [
                         "Warrior",
-                        "Grunt"
+                        "Solo"
                     ],
                     "keywords": [
                         "Thamarite",
@@ -12260,7 +12467,8 @@
                         "arc": "-",
                         "cmd": "7",
                         "ctrl": "-",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "8"
                     },
                     "weapons": [
                         {
@@ -12309,7 +12517,8 @@
                         "arc": "7",
                         "cmd": "8",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "16"
                     },
                     "weapons": [
                         {
@@ -12318,11 +12527,31 @@
                             "rng": "8",
                             "rof": "1",
                             "pow": "10"
+                        },
+                        {
+                            "name": "Doomsayer",
+                            "type": "m",
+                            "rng": "1",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "ability": [
+                                "Dispel"
+                            ]
+                        },
+                        {
+                            "name": "Blade",
+                            "type": "m",
+                            "rng": "1",
+                            "pow": "4",
+                            "damagetype": [
+                                "Arcane"
+                            ]
                         }
                     ],
                     "feat": {
                         "name": "Storm Of Ages",
-                        "description": "Enemy models/units activating in Baranova's control range suffer -2 SPD, cannot charge, and cannot make slam or trample power attacks. When a friendly model in Baranova's control range is target by a ranged or arcane attack, the attack suffers -4 RNG. Storm of Ages lasts for one round."
+                        "description": "Enemy models/units activating in Baranova's control range suffer -2 SPD, cannot charge, and cannot make slam or trample power attacks. When a friendly model in Baranova's control range is targeted by a ranged or arcane attack, the attack suffers -4 RNG. Storm of Ages lasts for one round."
                     },
                     "spells": [
                         "Banishing Ward",
@@ -12364,7 +12593,8 @@
                         "arc": "6",
                         "cmd": "8",
                         "ctrl": "12",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "16"
                     },
                     "weapons": [
                         {
@@ -12378,7 +12608,9 @@
                             ],
                             "ability": [
                                 "Weapon Master",
-                                "Attack Type:",
+                                "Attack Type"
+                            ],
+                            "attack type": [
                                 "Critical Armor",
                                 "Flare",
                                 "Grievous Wounds",
@@ -12421,6 +12653,11 @@
                         "Battle Plan",
                         "Spell Rack [2]"
                     ],
+                    "battle plan": [
+                        "At All Costs - RNG 5\"",
+                        "Kill Order - RNG 10\"",
+                        "Precision Strike"
+                    ],
                     "execution": "Sucker!",
                     "stats": {
                         "spd": "6",
@@ -12433,7 +12670,8 @@
                         "arc": "7",
                         "cmd": "10",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "17"
                     },
                     "weapons": [
                         {
@@ -12442,11 +12680,23 @@
                             "rng": "12",
                             "rof": "1",
                             "pow": "12"
+                        },
+                        {
+                            "name": "Headsman",
+                            "type": "m",
+                            "rng": "1",
+                            "pow": "7",
+                            "damagetype": [
+                                "Arcane"
+                            ],
+                            "ability": [
+                                "Critical Decapitation"
+                            ]
                         }
                     ],
                     "feat": {
                         "name": "Checkmate",
-                        "description": "Savaryn can use his Battle Plans three times this activation. Additionally, while in Savaryn's control range, friendly Faction models ignore cover and concealment when making ranged attacks and their weapons gain Blessed and Damage Type: Arcane. Checkmate Lasts for one turn."
+                        "description": "Savaryn can use his Battle Plans three times this activation. Additionally, while in Savaryn's control range, friendly Faction models ignore cover and concealment when making ranged attacks and their weapons gain Blessed and Damage Type: Arcane. Checkmate lasts for one turn."
                     },
                     "spells": [
                         "Escort",
@@ -12480,7 +12730,7 @@
                         "Treewalker",
                         "Elite Cadre [Nyss]"
                     ],
-                    "execution": "Warden In The North",
+                    "execution": "Warden In The North - \"This forest is old. Very old. Full of memories....and anger.\"",
                     "stats": {
                         "spd": "7",
                         "str": "5",
@@ -12492,7 +12742,8 @@
                         "arc": "7",
                         "cmd": "9",
                         "ctrl": "14",
-                        "base": "30mm"
+                        "base": "30mm",
+                        "hp": "15"
                     },
                     "weapons": [
                         {
@@ -12532,6 +12783,68 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Magziev Alexander Karchev",
+            "points": "30",
+            "models": [
+                {
+                    "modelname": "Karchev",
+                    "modeltype": [
+                        "Warcaster"
+                    ],
+                    "keywords": [
+                        "Greylord",
+                        "Tough"
+                    ],
+                    "characterabilities": [
+                        "Alternative History",
+                        "Unyielding",
+                        "Sacred Ward"
+                    ],
+                    "execution": "none",
+                    "stats": {
+                        "spd": "6",
+                        "str": "7",
+                        "aat": "6",
+                        "mat": "7",
+                        "rat": "4",
+                        "def": "14",
+                        "arm": "15",
+                        "arc": "5",
+                        "cmd": "9",
+                        "ctrl": "12",
+                        "base": "30mm",
+                        "hp": "18"
+                    },
+                    "weapons": [
+                        {
+                            "name": "Runed Greataxe",
+                            "type": "m",
+                            "rng": "2",
+                            "pow": "6",
+                            "damagetype": [
+                                "Arcane",
+                                "Cold"
+                            ],
+                            "ability": [
+                                "Critical Freeze"
+                            ]
+                        }
+                    ],
+                    "feat": {
+                        "name": "Total War",
+                        "description": "Models in Karchev's battlegroup may charge or perform power attacks without spending focus. Additionally, all friendly models ignore all movement penalties and gain Pathfinder."
+                    },
+                    "spells": [
+                        "Boundless Charge",
+                        "Bulwark",
+                        "Eruption",
+                        "Frostbite",
+                        "Unearthly Rage"
+                    ]
+                }
+            ]
         }
     ]
-}git
+}
